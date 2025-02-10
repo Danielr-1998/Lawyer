@@ -1,0 +1,70 @@
+/* Estilos para la sección de "Sobre Nosotros" */
+.about-section {
+    background-image: url('/public/still-life-with-scales-justice.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff; /* Texto blanco para contraste */
+    padding: 50px 20px;
+    background-repeat: no-repeat;
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .about-info {
+    flex: 1 1 48%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para mejorar legibilidad */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-title {
+    font-family: 'Caudex', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .about-fields {
+    flex: 1 1 48%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para mejorar legibilidad */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-fields h3 {
+    font-family: 'Caudex', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-fields ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .about-field-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-field-item::before {
+    content: '•';
+    color: #f39c12;
+    margin-right: 10px;
+  }
+  

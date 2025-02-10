@@ -1,0 +1,31 @@
+{
+    "name": "Alexander Riaño",
+    "experience": "Abogado con más de 10 años de experiencia en derecho civil y penal.",
+    "about_us": {
+      "title": "Sobre Mi",
+      "description": "Con más de 10 años de experiencia en diversas áreas del derecho, ofrecemos servicios legales de alta calidad. Nuestra práctica se enfoca en brindar soluciones efectivas a nuestros clientes en derecho civil, penal, laboral y mercantil."
+    },
+    "services": [
+      {
+        "title": "Consultoría Legal",
+        "icon": "",
+        "description": "Asesoría legal para empresas y particulares."
+      },
+      {
+        "title": "Defensa Penal",
+        "icon": "⚖️",
+        "description": "Defensa de clientes en casos penales."
+      },
+      {
+        "title": "Mediación",
+        "icon": "",
+        "description": "Servicios de mediación y resolución de conflictos."
+      }
+    ],
+    "contact": {
+      "email": "alex@abogado.com",
+      "phone": "+57 310 289 9327",
+      "address": " Pereira, Colombia"
+    }
+  }
+  
