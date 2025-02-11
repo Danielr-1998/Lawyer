@@ -72,6 +72,15 @@
   
   /* Para móviles: hacer la imagen de fondo más pequeña y posicionar bien el texto */
   @media (max-width: 768px) {
+    .header-experience-about {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.25rem;
+        color: #18353d;
+        /* margin-bottom: 20px; */
+        padding: 0% 46% 0% 0%;
+        text-align: start;
+        justify-content: unset;
+    }
     .about-section {
       background-size: 150px; /* Imagen de fondo MUY pequeña */
       background-position: top center;

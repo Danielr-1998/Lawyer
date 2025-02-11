@@ -22,6 +22,12 @@
     color: #ecf0f1;
     margin-bottom: 20px;
   }
+  .header-experience-about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
   
   /* Estilo para la barra de navegación */
   .header-nav ul {

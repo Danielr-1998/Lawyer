@@ -37,7 +37,7 @@ const About = () => {
       } else {
         // Móviles
         setStyles({
-          padding: '40px 20px',
+          padding: '0px 20px',
           textAlign: 'center',
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'contain', // Hace la imagen más pequeña
@@ -60,7 +60,7 @@ const About = () => {
   return (
     <section style={styles}>
       <h2 className="header-name">{aboutData.title}</h2>
-      <p className="header-experience">{aboutData.description}</p>
+      <p className="header-experience-about">{aboutData.description}</p>
     </section>
   );
 };
