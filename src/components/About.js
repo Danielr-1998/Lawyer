@@ -1,12 +1,56 @@
 import React, { useState, useEffect } from 'react';
 import data from '../data.json';
-import backgroundImage from '../assets/still-life-with-scales-justice.jpg'; // Asegúrate de tener la imagen en esta ruta
+import backgroundImage from '../assets/still-life-with-scales-justice.jpg';
 
 const About = () => {
   const [aboutData, setAboutData] = useState(null);
+  const [styles, setStyles] = useState({});
 
   useEffect(() => {
     setAboutData(data.about_us);
+  }, []);
+
+  useEffect(() => {
+    const updateStyles = () => {
+      const width = window.innerWidth;
+
+      if (width > 1024) {
+        // Pantallas grandes (PC)
+        setStyles({
+          padding: '110px 600px 300px 50px',
+          textAlign: 'justify',
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          color: 'white',
+        });
+      } else if (width > 768) {
+        // Tablets
+        setStyles({
+          padding: '80px 100px 150px 30px',
+          textAlign: 'justify',
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          color: 'white',
+        });
+      } else {
+        // Móviles
+        setStyles({
+          padding: '40px 20px',
+          textAlign: 'center',
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'contain', // Hace la imagen más pequeña
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          color: 'white',
+        });
+      }
+    };
+
+    updateStyles();
+    window.addEventListener('resize', updateStyles);
+    return () => window.removeEventListener('resize', updateStyles);
   }, []);
 
   if (!aboutData) {
@@ -14,18 +58,9 @@ const About = () => {
   }
 
   return (
-    <section
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        color: 'white',
-        padding: '110px 600px 300px 50px',
-        textAlign: 'justify'
-      }}
-    >
-      <h2 class="header-name">{aboutData.title}</h2>
-      <p  class="header-experience">{aboutData.description}</p>
+    <section style={styles}>
+      <h2 className="header-name">{aboutData.title}</h2>
+      <p className="header-experience">{aboutData.description}</p>
     </section>
   );
 };

@@ -68,3 +68,47 @@
     margin-right: 10px;
   }
   
+  /* MEDIA QUERIES - Responsividad */
+  
+  /* Para móviles: hacer la imagen de fondo más pequeña y posicionar bien el texto */
+  @media (max-width: 768px) {
+    .about-section {
+      background-size: 150px; /* Imagen de fondo MUY pequeña */
+      background-position: top center;
+      background-attachment: scroll; /* Evita que se fije en móviles */
+      padding: 20px 15px; /* Reduce el padding */
+    }
+  
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .about-info, .about-fields {
+      flex: 1 1 100%;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.75); /* Un poco más oscuro para mejor contraste */
+    }
+  
+    .about-title {
+      font-size: 2rem;
+      text-align: center; /* Centra el título */
+    }
+  
+    .about-description {
+      font-size: 1rem;
+      text-align: justify;
+    }
+  
+    .about-fields h3 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .about-field-item {
+      font-size: 1rem;
+      text-align: left;
+    }
+  }
+  
