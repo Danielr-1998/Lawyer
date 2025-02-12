@@ -12,8 +12,8 @@
   }
   
   .contact-info {
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #1a1a1a;
+    padding: 0px;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     flex: 1 1 45%;
@@ -36,20 +36,6 @@
     margin-bottom: 10px;
   }
   
-  .contact-form {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    flex: 1 1 45%;
-  }
-  
-  .contact-form h3 {
-    font-family: 'Caudex', serif;
-    font-size: 2rem;
-    color: #2c3e50;
-    margin-bottom: 20px;
-  }
   
   .form-group {
     margin-bottom: 20px;
@@ -88,5 +74,62 @@
   
   .submit-button:hover {
     background-color: #e67e22;
+  }
+  .contact-section {
+    background-color: #1a1a1a;
+    color: #1a1a1a;
+    padding: 0px 0;
+    text-align: center;
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #f4c542; /* Un dorado elegante */
+  }
+  
+  .contact-details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .contact-details strong {
+    color: #f4c542;
+  }
+  
+  .contact-section a {
+    color: #f4c542;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-section a:hover {
+    color: #ffffff;
+  }
+  
+  /* Estilo responsivo */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 20px;
+    }
+  
+    .contact-title {
+      font-size: 20px;
+    }
+  
+    .contact-details p {
+      font-size: 14px;
+    }
   }
   

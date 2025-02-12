@@ -14,21 +14,20 @@ const Contact = () => {
   }
 
   return (
-    <section className="contact-section">
-      <div className="contact-container">
-        {/* Información de contacto */}
-        <div className="contact-info">
-          <h2 className="contact-title">Contacto</h2>
-          <div className="contact-details">
-            <p><strong>Email:</strong> {contactData.email}</p>
-            <p><strong>Teléfono:</strong> {contactData.phone}</p>
-            <p><strong>Dirección:</strong> {contactData.address}</p>
-          </div>
+    <footer className="contact-section">
+    <div className="contact-container">
+      {/* Información de contacto */}
+      <div className="contact-info">
+        <h2 className="contact-title">Contacto</h2>
+        <div className="contact-details">
+          <p><strong>Email:</strong> {contactData.email}</p>
+          <p><strong>Teléfono:</strong> {contactData.phone}</p>
+          <p><strong>Dirección:</strong> {contactData.address}</p>
+          <p><strong>Creado por:</strong> {contactData.desing}</p>
         </div>
-
-       
       </div>
-    </section>
+    </div>
+  </footer>
   );
 };
 

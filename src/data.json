@@ -6,26 +6,27 @@
       "description": "Con más de 10 años de experiencia en diversas áreas del derecho, ofrecemo servicios legales de alta calidad.  Me enfoca en brindar soluciones efectivas a nuestros clientes en derecho civil, laboral y mercantil."
     },
     "services": [
-      {
-        "title": "Consultoría Legal",
-        "icon": "",
-        "description": "Asesoría legal para empresas y particulares."
-      },
-      {
-        "title": "Consultoría Financiera",
-        "icon": "⚖️",
-        "description": "Leasing ETC ."
-      },
-      {
-        "title": "Mediación",
-        "icon": "",
-        "description": "Servicios de mediación y resolución de conflictos."
-      }
+        {
+            "title": "Consultoría Legal",
+            "icon": "📜",
+            "description": "Asesoría legal para empresas y particulares."
+          },
+          {
+            "title": "Consultoría Financiera",
+            "icon": "💰",
+            "description": "Leasing ETC."
+          },
+          {
+            "title": "Mediación",
+            "icon": "🤝",
+            "description": "Servicios de mediación y resolución de conflictos."
+          }
     ],
     "contact": {
       "email": "alex@abogado.com",
       "phone": "+57 310 289 9327",
-      "address": " Pereira, Colombia"
+      "address": " Pereira, Colombia",
+      "desing":" Daniel Riaño"
     }
   }
   
