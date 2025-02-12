@@ -20,8 +20,9 @@ const About = () => {
           padding: '110px 600px 300px 50px',
           textAlign: 'justify',
           backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundSize: 'unset',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: '90% center',
           color: 'white',
         });
       } else if (width > 768) {
@@ -32,6 +33,7 @@ const About = () => {
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
           color: 'white',
         });
       } else {
