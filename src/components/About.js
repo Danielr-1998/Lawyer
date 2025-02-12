@@ -43,8 +43,9 @@ const About = () => {
           textAlign: 'center',
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'contain', // Hace la imagen más pequeña
-          backgroundPosition: 'center',
+          backgroundPosition: '90% center',
           backgroundRepeat: 'no-repeat',
+          
           color: 'white',
         });
       }
