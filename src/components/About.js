@@ -60,7 +60,7 @@ const About = () => {
   }
 
   return (
-    <section style={styles}>
+    <section style={styles} id="about">
       <h2 className="header-name">{aboutData.title}</h2>
       <p className="header-experience-about">{aboutData.description}</p>
     </section>

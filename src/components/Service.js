@@ -14,7 +14,7 @@ const Service = () => {
   }
 
   return (
-    <section>
+    <section id="services">
       <div className="services">
         {servicesData.map((service, index) => (
           <div key={index} className="service">

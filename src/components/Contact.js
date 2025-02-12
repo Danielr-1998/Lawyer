@@ -15,7 +15,7 @@ const Contact = () => {
 
   return (
     <footer className="contact-section">
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       {/* Información de contacto */}
       <div className="contact-info">
         <h2 className="contact-title">Contacto</h2>
