@@ -5,7 +5,7 @@ import "./Whastapp.css"; // Importa el archivo CSS
 const Whastapp = () => {
   return (
     <a
-      href="https://wa.me/573206490156?text=¡Hola!%20Estoy%20interesado%20en%20un%20domicilio"
+      href="https://wa.me/573102899327?text=¡Hola!%20Estoy%20interesado%20en%20una%20asesoria"
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-button"
